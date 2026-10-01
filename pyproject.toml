@@ -1,0 +1,10 @@
+[project]
+name = "model-context-protocol"
+version = "0.1.0"
+description = "MCP learning project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=4.0.10",
+    "uvicorn>=0.54.0",
+]
