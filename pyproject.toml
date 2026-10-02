@@ -5,6 +5,12 @@ description = "MCP learning project"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "fastmcp>=4.0.10",
+    "fastmcp>=2.0,<3",
     "uvicorn>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
 ]
